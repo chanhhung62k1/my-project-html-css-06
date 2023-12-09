@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>An-Interactive-Designer</title>
+
+        <!-- -------------------------embeds-favicon------------------------- -->
+
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- -------------------------embeds-file-css------------------------- -->
+
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+        <!-- -----------------------embes-fonts-google---------------------------- -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- -----------------------embes-fontawesome---------------------------- -->
+        <!-- <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        /> -->
+
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header id="header" class="header">
+            <div class="header__wrap">
+                <a href="mailto:hi@arif.interactive" class="email-icon-link">
+                    <div class="header__wrap-icon">
+                        <img
+                            class="email-icon"
+                            src="./assets/icon/email-icon.svg"
+                            alt=""
+                        />
+                    </div>
+                    <span class="email-icon-text">hi@arif.interactive</span>
+                </a>
+                <a href="#" class="header__wrap-logo">
+                    <img src="./assets/img/logo.png" alt="" />
+                </a>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-link">Projects</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-link">Journey</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-link">Service</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <header id="header-mobile" class="header-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header-mobile__nav">
+                            <img
+                                src="./assets/img/logo.png"
+                                alt=""
+                                class="header-mobile__img"
+                            />
+                            <div class="header-mobile__navbar">
+                                <div class="header-mobile__navbar-top">
+                                    <a
+                                        href="mailto:hi@arif.interactive"
+                                        class="header-mobile__letter"
+                                    >
+                                        <img
+                                            src="./assets/icon/email-icon.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <button class="header-mobile__bars-icon">
+                                        <img
+                                            src="./assets/icon/bars-icon.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+
+                                <ul class="header-mobile__navbar-content">
+                                    <div
+                                        class="header-mobile__navbar-icon-closed"
+                                    >
+                                        <i class="bx bxs-x-circle"></i>
+                                    </div>
+                                    <li class="header-mobile__navbar-item">
+                                        <a
+                                            href="#"
+                                            class="header-mobile__navbar-link"
+                                        >
+                                            <i
+                                                class="bx bx-wink-tongue header-mobile__navbar-link-icon"
+                                            ></i>
+                                            Projects
+                                        </a>
+                                    </li>
+                                    <li class="header-mobile__navbar-item">
+                                        <a
+                                            href="#"
+                                            class="header-mobile__navbar-link"
+                                        >
+                                            <i
+                                                class="bx bxs-bowl-rice header-mobile__navbar-link-icon"
+                                            ></i>
+                                            Journey
+                                        </a>
+                                    </li>
+                                    <li class="header-mobile__navbar-item">
+                                        <a
+                                            href="#"
+                                            class="header-mobile__navbar-link"
+                                        >
+                                            <i
+                                                class="bx bxs-happy-beaming header-mobile__navbar-link-icon"
+                                            ></i>
+
+                                            Service
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="header-mobile__navbar-item header-mobile__navbar-item-disabel"
+                                    >
+                                        <a
+                                            href="#"
+                                            class="header-mobile__navbar-link"
+                                        >
+                                            <i
+                                                class="bx bxs-contact header-mobile__navbar-link-icon"
+                                            ></i>
+                                            Contact
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="header-mobile__navbar-bottom-item"
+                                    >
+                                        <a
+                                            href="#"
+                                            class="header-mobile__navbar-bottom-settings header-mobile__navbar-bottom-link"
+                                        >
+                                            <i
+                                                class="bx bx-cog header-mobile__navbar-bottom-link-icon"
+                                            ></i>
+                                            settings
+                                        </a>
+                                        <div
+                                            class="header-mobile__navbar-bottom-item-separation"
+                                        ></div>
+                                        <a
+                                            href="#"
+                                            class="header-mobile__navbar-bottom-logout header-mobile__navbar-bottom-link"
+                                        >
+                                            <i
+                                                class="bx bx-log-out header-mobile__navbar-bottom-link-icon"
+                                            ></i>
+                                            logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-mobile__overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="hero" class="hero">
+                <div class="container hero__container-mark">
+                    <div class="row">
+                        <div class="col-lg-5 col-12 order-2">
+                            <div class="hero-left">
+                                <img
+                                    class="hero-left__img-main"
+                                    src="./assets/img/young-handsome-man.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="hero-left__img-mark"
+                                    src="./assets/img/mark-left-01.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-2 col-12 order-1">
+                            <div class="hero-right">
+                                <h1 class="hero-right__heading">
+                                    An Interactive Designer
+                                </h1>
+                                <p class="hero-right__desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="hero-right__btn-cta">
+                                    <a
+                                        href="#"
+                                        class="btn hero-right__btn-call"
+                                    >
+                                        Book a Call
+                                    </a>
+                                    <a href="#" class="hero-right__btn-link">
+                                        My Works
+                                    </a>
+                                </div>
+                                <div class="hero-right__follow-group">
+                                    <span class="hero-right__follow-title">
+                                        Follow me on:
+                                    </span>
+                                    <span class="hero-right__follow-icon-inner">
+                                        <img
+                                            src="./assets/icon/be-icon.svg"
+                                            alt=""
+                                            class="hero-right__right__follow-icon"
+                                        />
+                                    </span>
+                                    <span class="hero-right__follow-icon-inner">
+                                        <img
+                                            src="./assets/icon/ball-icon.svg"
+                                            alt=""
+                                            class="hero-right__right__follow-icon"
+                                        />
+                                    </span>
+                                    <span class="hero-right__follow-icon-inner">
+                                        <img
+                                            src="./assets/icon/instagram-icon.svg"
+                                            alt=""
+                                            class="hero-right__right__follow-icon"
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        class="hero-right__img-mark"
+                        src="./assets/img/mark-right-01.svg"
+                        alt=""
+                    />
+                </div>
+            </section>
+
+            <section id="trusted-company" class="trusted-company">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-12 offset-lg-1 trusted-company__sub-title"
+                        >
+                            <h2 class="trusted-company__subheading">
+                                Meet my recent clients
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <div class="trusted-company__brand-group">
+                                <div class="trusted-company__brand-wrap">
+                                    <figure
+                                        class="trusted-company__brand-wrap-img"
+                                    >
+                                        <img
+                                            src="./assets/icon/google-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Google
+                                    </span>
+                                </div>
+
+                                <div class="trusted-company__brand-wrap">
+                                    <figure
+                                        class="trusted-company__brand-wrap-img warner-bros"
+                                    >
+                                        <img
+                                            src="./assets/icon/warner-bros-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span
+                                        class="trusted-company__brand-name warner-bros-background"
+                                    >
+                                        Warner Bros
+                                    </span>
+                                </div>
+
+                                <div
+                                    class="trusted-company__brand-wrap trusted-company__brand-wrap-03"
+                                >
+                                    <figure
+                                        class="trusted-company__brand-wrap-img mailchimp"
+                                    >
+                                        <img
+                                            src="./assets/icon/mailchimp-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Mailchimp
+                                    </span>
+                                </div>
+
+                                <div
+                                    class="trusted-company__brand-wrap trusted-company__brand-wrap-04"
+                                >
+                                    <figure
+                                        class="trusted-company__brand-wrap-img adobe"
+                                    >
+                                        <img
+                                            src="./assets/icon/adobe-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Adobe
+                                    </span>
+                                </div>
+
+                                <div
+                                    class="trusted-company__brand-wrap trusted-company__brand-wrap-05"
+                                >
+                                    <figure
+                                        class="trusted-company__brand-wrap-img upwork"
+                                    >
+                                        <img
+                                            src="./assets/icon/upwork-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Upwork
+                                    </span>
+                                </div>
+
+                                <div
+                                    class="trusted-company__brand-wrap trusted-company__brand-wrap-06"
+                                >
+                                    <figure
+                                        class="trusted-company__brand-wrap-img creative-cloud"
+                                    >
+                                        <img
+                                            src="./assets/icon/creative-cloud-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Creative Cloud
+                                    </span>
+                                </div>
+
+                                <div
+                                    class="trusted-company__brand-wrap trusted-company__brand-wrap-07"
+                                >
+                                    <figure
+                                        class="trusted-company__brand-wrap-img woocommerce"
+                                    >
+                                        <img
+                                            src="./assets/icon/woocommerce-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Woocommerce
+                                    </span>
+                                </div>
+
+                                <div
+                                    class="trusted-company__brand-wrap trusted-company__brand-wrap-08"
+                                >
+                                    <figure
+                                        class="trusted-company__brand-wrap-img"
+                                    >
+                                        <img
+                                            src="./assets/icon/canva-icon.svg"
+                                            alt=""
+                                            class="trusted-company__brand-img"
+                                        />
+                                    </figure>
+                                    <span class="trusted-company__brand-name">
+                                        Canva
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="our-services" class="our-services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="our-services__top">
+                                <h2 class="sub-heading our-services__heading">
+                                    Specialities
+                                </h2>
+                                <p class="text-desc our-services__desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-services__bottom">
+                        <div class="row our-services-desktop">
+                            <div class="col-lg-4">
+                                <div class="our-services-desktop__item">
+                                    <div
+                                        class="our-services-desktop__bottom-icon"
+                                    >
+                                        <img
+                                            src="./assets/icon/light-bulb-icon.png"
+                                            alt=""
+                                            class="our-services-desktop__bottom-icon-img"
+                                        />
+                                    </div>
+                                    <h3
+                                        class="our-services-desktop__bottom-product-name"
+                                    >
+                                        Product design
+                                    </h3>
+                                    <p
+                                        class="text-desc our-services-desktop__bottom-product-desc"
+                                    >
+                                        Lorem ipsum dolor sit amet, solor
+                                        adipiscing elit. Non nisl solor ut
+                                        elementum turpis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="our-services-desktop__item">
+                                    <div
+                                        class="our-services-desktop__bottom-icon"
+                                    >
+                                        <img
+                                            src="./assets/icon/ruler-pencil-icon.png"
+                                            alt=""
+                                            class="our-service-desktop__bottom-icon-img"
+                                        />
+                                    </div>
+                                    <h3
+                                        class="our-services-desktop__bottom-product-name"
+                                    >
+                                        UI/UX Design
+                                    </h3>
+                                    <p
+                                        class="text-desc our-services-desktop__bottom-product-desc"
+                                    >
+                                        Lorem ipsum dolor sit amet, solor
+                                        adipiscing elit. Non nisl solor ut
+                                        elementum turpis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="our-services-desktop__item">
+                                    <div
+                                        class="our-services-desktop__bottom-icon"
+                                    >
+                                        <img
+                                            src="./assets/icon/phone-icon.png"
+                                            alt=""
+                                            class="our-services-desktop__bottom-icon-img"
+                                        />
+                                    </div>
+                                    <h3
+                                        class="our-services-desktop__bottom-product-name"
+                                    >
+                                        Interactive design
+                                    </h3>
+                                    <p
+                                        class="text-desc our-services-desktop__bottom-product-desc"
+                                    >
+                                        Lorem ipsum dolor sit amet, solor
+                                        adipiscing elit. Non nisl solor ut
+                                        elementum turpis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------------------our-services-mobile------------------>
+
+                        <div class="row our-services-mobile__slider">
+                            <div class="col-lg-4 col-12">
+                                <div class="our-services-mobile__item">
+                                    <div
+                                        class="our-services-mobile__bottom-icon"
+                                    >
+                                        <img
+                                            src="./assets/icon/light-bulb-icon.png"
+                                            alt=""
+                                            class="our-services-mobile__bottom-icon-img"
+                                        />
+                                    </div>
+                                    <h3
+                                        class="our-services-mobile__bottom-product-name"
+                                    >
+                                        Product design
+                                    </h3>
+                                    <p
+                                        class="text-desc our-services-mobile__bottom-product-desc"
+                                    >
+                                        Lorem ipsum dolor sit amet, solor
+                                        adipiscing elit. Non nisl solor ut
+                                        elementum turpis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="our-services-mobile__item">
+                                    <div
+                                        class="our-services-mobile__bottom-icon"
+                                    >
+                                        <img
+                                            src="./assets/icon/ruler-pencil-icon.png"
+                                            alt=""
+                                            class="our-services-mobile__bottom-icon-img"
+                                        />
+                                    </div>
+                                    <h3
+                                        class="our-services-mobile__bottom-product-name"
+                                    >
+                                        UI/UX Design
+                                    </h3>
+                                    <p
+                                        class="text-desc our-services-mobile__bottom-product-desc"
+                                    >
+                                        Lorem ipsum dolor sit amet, solor
+                                        adipiscing elit. Non nisl solor ut
+                                        elementum turpis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="our-services-mobile__item">
+                                    <div
+                                        class="our-services-mobile__bottom-icon"
+                                    >
+                                        <img
+                                            src="./assets/icon/phone-icon.png"
+                                            alt=""
+                                            class="our-services-mobile__bottom-icon-img"
+                                        />
+                                    </div>
+                                    <h3
+                                        class="our-services-mobile__bottom-product-name"
+                                    >
+                                        Interactive design
+                                    </h3>
+                                    <p
+                                        class="text-desc our-services-mobile__bottom-product-desc"
+                                    >
+                                        Lorem ipsum dolor sit amet, solor
+                                        adipiscing elit. Non nisl solor ut
+                                        elementum turpis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="our-services__bottom-box-slide-dots">
+                            <span
+                                class="our-services__bottom-slide-dot active"
+                            ></span>
+                            <span class="our-services__bottom-slide-dot"></span>
+                            <span class="our-services__bottom-slide-dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work" class="work">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="work__top">
+                                <h2 class="sub-heading work__heading">
+                                    Take a look at <br />
+                                    my recent projects
+                                </h2>
+                                <p class="text-desc work__desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work__bottom">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <div class="work__bottom-inner">
+                                    <div class="work__bottom-info">
+                                        <h3 class="work__bottom-name">
+                                            Wally Website
+                                        </h3>
+                                        <div
+                                            class="text-desc work__bottom-desc"
+                                        >
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </div>
+                                        <a href="#" class="work__bottom-link">
+                                            Case Study
+                                        </a>
+                                    </div>
+                                    <img
+                                        class="work__bottom-img"
+                                        src="./assets/img/work-01.png"
+                                    />
+                                    <img
+                                        src="./assets/img/work-mark.svg"
+                                        alt=""
+                                        class="work__bottom-img-mask"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="work__bottom-inner">
+                                    <div class="work__bottom-info">
+                                        <h3 class="work__bottom-name">
+                                            Banking App
+                                        </h3>
+                                        <div
+                                            class="text-desc work__bottom-desc"
+                                        >
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </div>
+                                        <a href="#" class="work__bottom-link">
+                                            Case Study
+                                        </a>
+                                    </div>
+                                    <img
+                                        class="work__bottom-img"
+                                        src="./assets/img/work-02.png"
+                                    />
+                                    <img
+                                        src="./assets/img/work-mark.svg"
+                                        alt=""
+                                        class="work__bottom-img-mask"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="work__bottom-inner">
+                                    <div class="work__bottom-info">
+                                        <h3 class="work__bottom-name">
+                                            Web App
+                                        </h3>
+                                        <div
+                                            class="text-desc work__bottom-desc"
+                                        >
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </div>
+                                        <a href="#" class="work__bottom-link">
+                                            Case Study
+                                        </a>
+                                    </div>
+                                    <img
+                                        class="work__bottom-img"
+                                        src="./assets/img/work-03.png"
+                                    />
+                                    <img
+                                        src="./assets/img/work-mark.svg"
+                                        alt=""
+                                        class="work__bottom-img-mask"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="work__bottom-inner">
+                                    <div class="work__bottom-info">
+                                        <h3 class="work__bottom-name">
+                                            Oculus Website
+                                        </h3>
+                                        <div
+                                            class="text-desc work__bottom-desc"
+                                        >
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </div>
+                                        <a href="#" class="work__bottom-link">
+                                            Case Study
+                                        </a>
+                                    </div>
+                                    <img
+                                        class="work__bottom-img"
+                                        src="./assets/img/work-04.png"
+                                    />
+                                    <img
+                                        src="./assets/img/work-mark.svg"
+                                        alt=""
+                                        class="work__bottom-img-mask"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="work__btn-group">
+                                    <a href="#" class="btn work__btn">
+                                        All Projects
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="about-top">
+                                <span class="about-said">Hey,,,,It’s Arif</span>
+                                <h2 class="sub-heading">
+                                    Interactive Designer
+                                </h2>
+                                <p class="text-desc about-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="about-bottom">
+                                <div class="about-bottom__inner">
+                                    <div
+                                        class="about-bottom__item about-order-02"
+                                    >
+                                        <span class="about-bottom__item-title">
+                                            08+
+                                        </span>
+                                        <span class="about-bottom__item-desc">
+                                            Years Experience
+                                        </span>
+                                    </div>
+                                    <div
+                                        class="about-bottom__item about-order-01"
+                                    >
+                                        <span class="about-bottom__item-title">
+                                            21+
+                                        </span>
+                                        <span class="about-bottom__item-desc">
+                                            Features & Awards
+                                        </span>
+                                    </div>
+                                    <div
+                                        class="about-bottom__item about-order-03"
+                                    >
+                                        <span class="about-bottom__item-title">
+                                            97%
+                                        </span>
+                                        <span class="about-bottom__item-desc">
+                                            Clients Rating
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="about-bottom__video-inner">
+                                    <video
+                                        id="about-bottom__video"
+                                        class="about-bottom__video"
+                                    >
+                                        <source
+                                            src="./assets/video/30s.mp4"
+                                            type="video/mp4"
+                                        />
+
+                                        Your browser does not support the video
+                                        tag.
+                                    </video>
+                                    <button
+                                        type="button"
+                                        class="about-bottom__play"
+                                    >
+                                        <img
+                                            class="about-bottom__play-icon"
+                                            src="./assets/icon/arrow-right.svg"
+                                            alt=""
+                                            class=""
+                                        />
+                                    </button>
+                                    <p class="btn about-bottom__btn-intro">
+                                        Intro Video
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="the-person">
+                <div class="container the-person-desktop__container">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="the-person__info">
+                                <h2 class="sub-heading the-person__heading">
+                                    What people says
+                                </h2>
+                                <p class="text-desc the-person__desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row the-person-desktop__slider">
+                        <div class="col col-12">
+                            <div class="the-person-desktop__item">
+                                <p class="the-person-desktop__desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </p>
+                                <div class="the-person-desktop__group-info">
+                                    <div class="the-person-desktop__group-img">
+                                        <img
+                                            src="./assets/img/the-person-01.png"
+                                            alt=""
+                                            class="the-person-desktop__img"
+                                        />
+                                        <span class="the-person-desktop__name">
+                                            Joe Elia
+                                        </span>
+                                    </div>
+                                    <span class="the-person-desktop__job-user">
+                                        User Interface Design at PCL Lab
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12">
+                            <div class="the-person-desktop__item">
+                                <p class="the-person-desktop__desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </p>
+                                <div class="the-person-desktop__group-info">
+                                    <div class="the-person-desktop__group-img">
+                                        <img
+                                            src="./assets/img/the-person-02.jpg"
+                                            alt=""
+                                            class="the-person-desktop__img"
+                                        />
+                                        <span class="the-person-desktop__name">
+                                            Joe Elia
+                                        </span>
+                                    </div>
+                                    <span class="the-person-desktop__job-user">
+                                        User Interface Design at PCL Lab
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12">
+                            <div class="the-person-desktop__item">
+                                <p class="the-person-desktop__desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </p>
+                                <div class="the-person-desktop__group-info">
+                                    <div class="the-person-desktop__group-img">
+                                        <img
+                                            src="./assets/img/the-person-03.jpg"
+                                            alt=""
+                                            class="the-person-desktop__img"
+                                        />
+                                        <span class="the-person-desktop__name">
+                                            Joe Elia
+                                        </span>
+                                    </div>
+                                    <span class="the-person-desktop__job-user">
+                                        User Interface Design at PCL Lab
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="the-person__box-slide-dots">
+                                <span
+                                    class="the-person__slide-dot active"
+                                ></span>
+                                <span class="the-person__slide-dot"></span>
+                                <span class="the-person__slide-dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    src="./assets/img/person-mark-01.svg"
+                    alt=""
+                    class="the-person__mark-01"
+                />
+                <img
+                    src="./assets/img/person-mark-02.svg"
+                    alt=""
+                    class="the-person__mark-02"
+                />
+            </section>
+
+            <section class="questions-client">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-12">
+                            <h2 class="sub-heading questions-client__heading">
+                                A few questions <br />clients normally ask me
+                            </h2>
+                            <div class="questions-client__box-accordion">
+                                <div class="questions-client__accordion-item">
+                                    <div
+                                        class="questions-client__accordion-btn"
+                                    >
+                                        What is your hourly rate?
+                                        <div
+                                            class="questions-client__accordion-btn-plus"
+                                        >
+                                            <i class="bx bx-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="questions-client__accordion-panel"
+                                    >
+                                        <p
+                                            class="questions-client__accordion-panel-desc"
+                                        >
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. In
+                                            urna, non nisl tincidunt ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="questions-client__accordion-item">
+                                    <div
+                                        class="questions-client__accordion-btn"
+                                    >
+                                        What type of projects do you take on?
+                                        <div
+                                            class="questions-client__accordion-btn-plus"
+                                        >
+                                            <i class="bx bx-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="questions-client__accordion-panel"
+                                    >
+                                        <p
+                                            class="questions-client__accordion-panel-desc"
+                                        >
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. In
+                                            urna, non nisl tincidunt ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="questions-client__accordion-item">
+                                    <div
+                                        class="questions-client__accordion-btn"
+                                    >
+                                        How do you charge for projects ?
+                                        <div
+                                            class="questions-client__accordion-btn-plus"
+                                        >
+                                            <i class="bx bx-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="questions-client__accordion-panel"
+                                    >
+                                        <p
+                                            class="questions-client__accordion-panel-desc"
+                                        >
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. In
+                                            urna, non nisl tincidunt ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="questions-client__accordion-item">
+                                    <div
+                                        class="questions-client__accordion-btn"
+                                    >
+                                        What time-zone do you work in?
+                                        <div
+                                            class="questions-client__accordion-btn-plus"
+                                        >
+                                            <i class="bx bx-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="questions-client__accordion-panel"
+                                    >
+                                        <p
+                                            class="questions-client__accordion-panel-desc"
+                                        >
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. In
+                                            urna, non nisl tincidunt ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="questions-client__accordion-item">
+                                    <div
+                                        class="questions-client__accordion-btn"
+                                    >
+                                        How often can we communicate?
+                                        <div
+                                            class="questions-client__accordion-btn-plus"
+                                        >
+                                            <i class="bx bx-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="questions-client__accordion-panel"
+                                    >
+                                        <p
+                                            class="questions-client__accordion-panel-desc"
+                                        >
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. In
+                                            urna, non nisl tincidunt ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="container gallery-container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="gallery__top">
+                                <h2 class="sub-heading gallery__heading">
+                                    My atmosphere
+                                </h2>
+                                <p class="text-desc gallery__desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="gallery-said">
+                                    @interaction_arif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gallery__desktop">
+                        <div class="col-lg-4">
+                            <div class="gallery__list">
+                                <div class="gallery__desktop-item">
+                                    <img
+                                        src="./assets/img/gallery-img-01.png"
+                                        alt=""
+                                        class="gallery__desktop-item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gallery__list">
+                                <div class="gallery__desktop-item">
+                                    <img
+                                        src="./assets/img/gallery-img-02.png"
+                                        alt=""
+                                        class="gallery__desktop-item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="gallery__list">
+                                <div class="gallery__desktop-item">
+                                    <img
+                                        src="./assets/img/gallery-img-03.png"
+                                        alt=""
+                                        class="gallery__desktop-item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--gallery__mobile-->
+                    <div class="row gallery__slider gallery__slider-display">
+                        <div class="col-lg-4 col-12">
+                            <div class="gallery__list">
+                                <div class="gallery__mobile-item">
+                                    <img
+                                        src="./assets/img/gallery-img-01.png"
+                                        alt=""
+                                        class="gallery__mobile-item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="gallery__list">
+                                <div class="gallery__mobile-item">
+                                    <img
+                                        src="./assets/img/gallery-img-02.png"
+                                        alt=""
+                                        class="gallery__mobile-item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="gallery__list">
+                                <div class="gallery__mobile-item">
+                                    <img
+                                        src="./assets/img/gallery-img-03.png"
+                                        alt=""
+                                        class="gallery__mobile-item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__box-slide-dots">
+                        <span class="gallery__slide-dot active"></span>
+                        <span class="gallery__slide-dot"></span>
+                        <span class="gallery__slide-dot"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="cta__group">
+                                <img
+                                    src="./assets/icon/cta-icon.svg"
+                                    alt=""
+                                    class="cta__group-icon"
+                                />
+                                <h2 class="sub-heading cta__group-heading">
+                                    Got a project? Let’s talk
+                                </h2>
+                                <p class="text-desc cta__group-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <a href="#" class="btn cta__group-btn"
+                                    >Book a Call</a
+                                >
+                                <img
+                                    src="./assets/img/cta-mark-left.svg"
+                                    alt=""
+                                    class="cta__group-mark-img-left"
+                                />
+                                <img
+                                    src="./assets/img/cta-mark-center.svg"
+                                    alt=""
+                                    class="cta__group-mark-img-center"
+                                />
+                                <img
+                                    src="./assets/img/cta-mark-right.svg"
+                                    alt=""
+                                    class="cta__group-mark-img-right"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-mobile__logo">
+                            <a href="#" class="footer-mobile__wrap-logo">
+                                <img src="./assets/img/logo.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="footer__wrap">
+                            <a
+                                href="mailto:hi@arif.interactive"
+                                class="email-icon-link"
+                            >
+                                <div class="footer__wrap-icon">
+                                    <img
+                                        class="email-icon"
+                                        src="./assets/icon/email-icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <span class="email-icon-text">
+                                    hi@arif.interactive
+                                </span>
+                            </a>
+                            <a href="#" class="footer__wrap-logo">
+                                <img src="./assets/img/logo.png" alt="" />
+                            </a>
+                            <ul class="footer__navbar-list">
+                                <li class="footer__navbar-item">
+                                    <a href="#" class="footer__navbar-link">
+                                        Projects
+                                    </a>
+                                </li>
+                                <li class="footer__navbar-item">
+                                    <a href="#" class="footer__navbar-link">
+                                        Journey
+                                    </a>
+                                </li>
+                                <li class="footer__navbar-item">
+                                    <a href="#" class="footer__navbar-link">
+                                        Service
+                                    </a>
+                                </li>
+                                <li class="footer__navbar-item">
+                                    <a href="#" class="footer__navbar-link">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__group-coypright">
+                            <p class="text-copyright-block-right-text">
+                                ©interactiveArif 2021. All rights reserved.
+                            </p>
+                            <div class="footer__text-copyright-block-right">
+                                <span class="text-copyright-block-right-text">
+                                    Privacy Policy
+                                </span>
+                                <span
+                                    class="text-copyright-block-right-dash"
+                                ></span>
+                                <span class="text-copyright-block-right-text">
+                                    Terms of Conditions
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-mobile__email-group">
+                            <a
+                                href="mailto:hi@arif.interactive"
+                                class="footer-mobile__email-icon-link"
+                            >
+                                <div class="footer-mobile__wrap-icon">
+                                    <img
+                                        class="footer-mobile__email-icon"
+                                        src="./assets/icon/email-icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <span class="footer-mobile__email-icon-text">
+                                    hi@arif.interactive
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-mobile__group-coypright">
+                            <p
+                                class="footer-mobile__text-copyright-block-bottom-text"
+                            >
+                                ©interactiveArif 2021. All rights reserved.
+                            </p>
+                            <div
+                                class="footer-mobile__text-copyright-block-right"
+                            >
+                                <span
+                                    class="footer-mobile__text-copyright-block-right-text"
+                                >
+                                    Privacy Policy
+                                </span>
+                                <span
+                                    class="footer-mobile__text-copyright-block-right-dash"
+                                ></span>
+                                <span
+                                    class="footer-mobile__text-copyright-block-right-text"
+                                >
+                                    Terms of Conditions
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
