@@ -236,10 +236,6 @@ a {
     z-index: -1;
 }
 
-.hero__container-mark {
-    position: relative;
-}
-
 /*_________________________hero-left_________________________*/
 
 .hero-left {
@@ -391,7 +387,7 @@ a {
 
 .trusted-company__brand-group {
     display: grid;
-    gap: 34px 66px;
+    gap: 34px 50px;
     grid-template-columns: repeat(4, 1fr);
     overflow: hidden;
 }
@@ -469,6 +465,16 @@ a {
 .our-services__bottom {
     margin-top: 93px;
     background: #fbfaff;
+}
+
+.our-services-desktop__item,
+.our-services-mobile__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background: #fbfaff;
+    padding: 30px;
 }
 
 .our-services-desktop__bottom-product-name,
@@ -960,13 +966,18 @@ a {
 }
 
 .cta__group {
-    padding-top: 48px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+    z-index: 1;
+    padding: 68px 0;
+}
+
+.cta__group-btn {
+    margin-top: 68px;
 }
 
 .cta__group-icon {
@@ -979,11 +990,6 @@ a {
     margin-top: 20px;
     width: 570px;
     text-align: center;
-}
-
-.cta__group-btn {
-    margin: 68px 0;
-    z-index: 1;
 }
 
 .cta__group-mark-img-left {
@@ -1001,7 +1007,7 @@ a {
 
 .cta__group-mark-img-right {
     position: absolute;
-    top: 0;
+    top: 36px;
     right: 0;
 }
 
