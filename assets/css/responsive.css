@@ -15,6 +15,12 @@
     .hero-right__img-mark {
         display: none;
     }
+
+    .hero__row-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /*_______________________tablet and mobile_______________________*/
@@ -446,6 +452,10 @@
 
     .hero-right__btn-link {
         font-size: 1.8rem;
+    }
+
+    .trusted-company__subheading {
+        width: 266px;
     }
 
     .trusted-company__brand-group {

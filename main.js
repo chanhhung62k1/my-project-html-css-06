@@ -129,12 +129,17 @@ window.addEventListener("load", function (e) {
                 btnPlay.style.opacity = 0;
             }, 4500);
         }
-        if (isClick) {
-            clearTimeout(timeOut);
-            btnPlay.style.opacity = 1;
-        }
+        // if (isClick) {
+        //     clearTimeout(timeOut);
+        //     btnPlay.style.opacity = 1;
+        // }
         if (video.ended) {
             clearTimeout(timeOut);
+        }
+
+        if (video.paused) {
+            clearTimeout(timeOut);
+            btnPlay.style.opacity = 1;
         }
     });
 
